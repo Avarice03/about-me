@@ -1,3 +1,29 @@
 html {
     box-sizing: border-box;
+    margin-top:20px;
+    margin-left:100px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+
 }
+
+#profile-pic{
+    height:645px;
+    width: auto;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+#profile,
+#goals {
+    margin-bottom: 30px;
+}
+
+.hobby {
+    height:100px;
+    width:auto;
+    margin: 20px;
+}
+
