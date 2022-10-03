@@ -1,18 +1,15 @@
 html {
     box-sizing: border-box;
     margin-top:20px;
-    margin-left:100px;
     margin-bottom: 20px;
-    margin-right: 100px;
-
 }
 
 #profile-pic{
-    height:645px;
+    height:1075px;
     width: auto;
 }
 
-h4 {
+h2 {
     font-weight: bold;
 }
 
@@ -22,8 +19,36 @@ h4 {
 }
 
 .hobby {
-    height:100px;
+    height:120px;
     width:auto;
-    margin: 20px;
+    margin-left: 80px;
 }
 
+*{
+    color:white;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+#profile {
+    background-color: #00bda5;
+    text-align: justify;
+}
+
+#goals {
+    background-color: #f5c26b;
+}
+
+#hobbies {
+    background-color: #2d3e50;
+}
+
+#contact {
+    margin-top:30px;
+    background-color: #f2547d;
+}
+
+.jumbotron {
+    color:black
+}
