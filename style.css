@@ -3,9 +3,24 @@ html {
     margin-top:20px;
     margin-bottom: 20px;
 }
+body {
+    background-image: url(./images/bgimage.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+*{
+    color:white;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.jumbotron {
+    background-color: #4f4f4f;
+    color:black
+}
 
 #profile-pic{
-    height:1075px;
+    height:1205px;
     width: auto;
 }
 
@@ -16,19 +31,6 @@ h2 {
 #profile,
 #goals {
     margin-bottom: 30px;
-}
-
-.hobby {
-    height:120px;
-    width:auto;
-    margin-left: 80px;
-}
-
-*{
-    color:white;
-    font-size: 24px;
-    font-family: "Open Sans", sans-serif;
-    
 }
 
 #profile {
@@ -49,6 +51,13 @@ h2 {
     background-color: #f2547d;
 }
 
-.jumbotron {
-    color:black
+.hobby {
+    height:140px;
+    width:auto;
+    margin-left: 80px;
+}
+
+.icon {
+    height:40px;
+    width:auto;
 }
